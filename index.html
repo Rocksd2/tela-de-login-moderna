@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Teste para criação de pagina de login</title>
+</head>
+<body>
+  <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Cadastro de conta</h1>
+          <div class="social-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <span>Se ja possue cadastro em noso site acesse com seu E-mail e senha para acessar.!</span>
+          <input type="text" placeholder="Nome">
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Senha">
+          <button>Cadastar</button>
+        </form>
+      </div>
+      <!--Segunda Parte do codigo-->
+        <div class="container" id="container">
+      <div class="form-container sign-in">
+        <form>
+          <h1>Login de acesso</h1>
+          <div class="social-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <span>Utilize seu e-mail e senha para entrar na conta</span>
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Senha">
+          <a href="#"> Esqueceu a Senha?</a>
+          <button>Entrar</button>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Bem-Vindo!</h1>
+            <p>Se ja possue cadastro so clicar acessar a conta</p>
+            <button class="hidden" id="login">Entrar na conta</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Olá, primeiro acesso?</h1>
+            <p>Efetue o cadastro de usúario para continuar.</p>
+            <button class="hidden" id="register">Cadastre-se</button>
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
